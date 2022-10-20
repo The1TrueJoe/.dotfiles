@@ -38,7 +38,6 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
-
 let g:CommandTPreferredImplementation='lua'
 
 " Disable compatibility with vi which can cause unexpected issues.
@@ -66,3 +65,12 @@ set cursorline
 Plugin 'NLKNguyen/papercolor-theme'
 set background=dark
 colorscheme PaperColor
+
+" Airline
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+let g:airline_theme='PaperColor'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
