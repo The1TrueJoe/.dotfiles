@@ -24,3 +24,9 @@ set number
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
+
+" Encode all files as UTF-8.
+set encoding=utf-8
+
+" Enable mouse support.
+set mouse=a
