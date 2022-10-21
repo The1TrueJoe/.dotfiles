@@ -1,0 +1,23 @@
+" @file .vimrc
+" @brief Vim settings
+" @author Joseph Telaak
+" @since 21 Oct 2022
+"===============================================================================
+
+" General settings"
+source ~/.vim/config/generic.vim
+
+" Vundle settings"
+source ~/.vim/config/vundle.vim
+
+" Theme settings"
+source ~/.vim/config/theme.vim
+
+" Airline settings"
+source ~/.vim/config/airline.vim
+
+" Language settings"
+source ~/.vim/config/lang.vim
+
+" Plugin settings"
+source ~/.vim/config/plugins.vim
