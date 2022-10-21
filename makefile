@@ -7,10 +7,10 @@ update:
 
 # Install vim plugins
 update-plugins:
+	make update
 	vim +PluginInstall +qall
 
 # Setup vim plugins
 vim:
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	make update-plugins
-	make update
