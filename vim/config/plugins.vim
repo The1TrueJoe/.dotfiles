@@ -123,15 +123,5 @@ let g:nerdtree_tabs_open_on_console_startup = 1
 
 "===============================================================================
 
-" Devicons: Adds icons to NERDTree
-Plugin 'ryanoasis/vim-devicons'
-
-"=============================================================================
-
-" Nerdtree-git-plugin: Adds git status to NERDTree
-Plugin 'Xuyuanp/nerdtree-git-plugin'
-
-"===============================================================================
-
 " Surround: Easy quoting!
 Plugin 'tpope/vim-surround'
