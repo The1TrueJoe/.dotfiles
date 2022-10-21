@@ -129,7 +129,7 @@ Plugin 'ryanoasis/vim-devicons'
 "=============================================================================
 
 " Nerdtree-git-plugin: Adds git status to NERDTree
-Plug 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 "===============================================================================
 
