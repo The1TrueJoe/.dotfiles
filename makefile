@@ -2,6 +2,7 @@
 
 # Update dotfiles
 update:
+	git pull
 	cp ./vim/vimrc ~/.vimrc
 	cp -r ./vim/config ~/.vim/config
 
