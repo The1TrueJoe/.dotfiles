@@ -4,26 +4,6 @@
 " @since 21 Oct 2022
 "===============================================================================
 
-" YouCompleteMe: autocomplete 
-Plugin 'Valloric/YouCompleteMe'
-
-" default to autocomplete on
-let g:ycm_filetype_whitelist = { '*': 1 }
-
-" shouldn't autocomplete in documents and special buffers
-let g:ycm_filetype_blacklist = {
-\   'markdown': 1,
-\   'tagbar': 1,
-\   'tex': 1,
-\   'nerdtree': 1
-\}
-
-" defer syntax checker to syntastic, while still providing identifier completion
-" This is for c, cpp, objc types
-let g:ycm_show_diagnostics_ui = 0
-
-"===============================================================================
-
 " A: Alternate between .h and .cpp files quickly
 Plugin 'vim-scripts/a.vim'
 
