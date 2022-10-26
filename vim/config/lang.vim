@@ -11,7 +11,7 @@ augroup arduino
 augroup END
 
 " Have matlab reload files on change
-augroup beziMatlab
+augroup Matlab
     au!
     au FileType matlab setlocal autoread
     au FocusGained,BufEnter * checktime
