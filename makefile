@@ -1,17 +1,9 @@
-# Dotfiles Makefile
+# Dotfiles setup makefile
 
-# Update dotfiles
-update:
-	git pull
-	cp ./vim/vimrc ~/.vimrc
-	cp -r ./vim/config ~/.vim/config
+# Run linux script
+linux:
+	bash ./bin/linux.sh
 
-# Install vim plugins
-update-plugins:
-	make update
-	vim +PluginInstall +qall
-
-# Setup vim plugins
-vim:
-	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-	make update-plugins
+# Clean
+clean:
+	bash ./bin/cleanup.sh
